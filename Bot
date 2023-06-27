@@ -1,0 +1,14 @@
+def collect_user_data():
+    user_data = []
+    while True:
+        data = input("Enter data (or 'q' to quit): ")
+        if data.lower() == 'q':
+            break
+        user_data.append(data)
+    return user_data
+
+# Example usage
+data_collection = collect_user_data()
+print("Collected data:")
+for data in data_collection:
+    print(data)
