@@ -12,3 +12,5 @@ data_collection = collect_user_data()
 print("Collected data:")
 for data in data_collection:
     print(data)
+#chek all information 
+# it can be crashed 
