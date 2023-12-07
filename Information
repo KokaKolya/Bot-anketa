@@ -1,0 +1,13 @@
+AInisders | Notice:
+
+PYTH Token Allocation Guidelines for Polynomial 
+
+PYTH tokens are allocated to users based on their interaction levels, with users categorized into one of three tiers. Here’s how it works:
+
+Tier Classification: Users have interactions counted separately for two wallet types - EOA (Externally Owned Accounts) and Smart Contract Wallets.
+
+Maximum Tier Cap: The highest tier has a cap of 4049 interactions. Even if both your EOA and Smart Contract Wallets reach this tier, the maximum allocation does not exceed 4049.
+
+Tier Advancement: If your EOA is in the middle tier but combined interactions with your Smart Contract Wallet push you to a higher tier, your overall tier will be adjusted accordingly.
+
+No Double Counting: The maximum allocation is 4049, not 4049+4049, regardless of the interaction levels in both wallet types
